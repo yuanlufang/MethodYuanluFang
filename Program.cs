@@ -83,12 +83,7 @@ namespace MethodYuanluFang
                     int Num3 = Num1*Num2;
                     Console.Write("Multiply " + Num1 + " by " + Num2 + " and you get " + Num3);
                 }
-
-                //else if (FlagInUse == "/" && Num2 == 0)
-                //{
-                    //Console.Write("Please do not divide by 0");
-                //}
-               
+              
                 else
                 {// the last condition is to check if user input unknown operation
                     Console.WriteLine("Boo-Boo. Please read above and try again.");
